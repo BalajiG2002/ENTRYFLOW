@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# 🏢 Building Entry System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Building Entry System! This project helps track people entering and leaving a building using MongoDB, Node.js with TypeScript, Express.js, and React. 🚀
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- 🚪 Entry and Exit Management
+- 👥 People Tracking
+- 📊 Analytics Dashboard
+- 📜 Historical Data Retrieval
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 🍃 MongoDB
+- 📜 Node.js with TypeScript
+- 🚂 Express.js
+- ⚛️ React
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+1. Clone the repo:
+2. Install dependencies: npm install
+3. 3. Set up your `.env` file with your MongoDB URI
+4. Start the server: npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📡 API Endpoints
 
-### `npm run build`
+- 📥 POST `/entry`: Register a person's entry
+- 📤 POST `/exit`: Register a person's exit
+- 👥 GET `/people`: Retrieve list of people currently inside
+- 📜 GET `/history`: Retrieve entry/exit history for a person
+- 📊 GET `/analytics`: Retrieve building analytics
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧪 Testing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Run tests with: npm test
+## 📚 API Documentation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Refer to our [Postman Collection](link-to-your-postman-collection) for detailed API documentation.
 
-### `npm run eject`
+## 🚀 Deployment
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This project is deployed at [your-deployment-url]. Visit to see it in action!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🤝 Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for more information.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📜 License
 
-## Learn More
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🐛 Troubleshooting
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you encounter any issues:
+- 🔌 Verify your MongoDB connection
+- 🔍 Ensure all environment variables are correctly set
+- 🧹 Try clearing your browser cache
+
+## Video:
+
+If you have any questions, feel free to reach out to [adithya8112002@gmail.com].
+
+---
+
+Happy coding! 💻
+
+https://github.com/user-attachments/assets/8a3c57e5-a978-4040-9b1b-edef17513ea3
+
+✨
+
+
+https://github.com/user-attachments/assets/622b0f12-a572-4732-a5af-4396f5201684
+
